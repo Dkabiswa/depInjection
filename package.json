@@ -1,0 +1,22 @@
+{
+  "name": "dep_injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "inversify": "^5.0.1",
+    "nodemon": "^2.0.2",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  }
+}
